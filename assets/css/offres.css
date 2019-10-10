@@ -1,0 +1,272 @@
+:root {
+    --navbar-noScroll-color: #ffffff;
+    --footer-color: #212121;
+    --navbar-scrolled-color: #97BF0D;
+    --main-bg-color: #97BF0D;
+    --details-color: black;
+}
+
+@font-face {
+    font-family: 'Muli-Regular';
+    src: url('../font/Muli/Muli-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('../font/Muli/Muli-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Muli-Light';
+    src: url('../font/Muli/Muli-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Modern_Sans';
+    src: url('../font/ModernSans/ModernSans-Light.otf');
+}
+
+body {
+    font-family: 'Muli-Regular';
+    background-color: #f5f5f5;
+}
+
+.aZ {
+    color: #97BF0D;
+}
+
+.fa-chevron-left {
+    color: #ffffff;
+}
+
+.fa-chevron-right {
+    color: #ffffff;
+}
+
+.header .navbar {
+    background-color: var(--navbar-noScroll-color);
+    margin: 0;
+    height: 60px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+}
+
+.header .navbar .navbar-brand {
+    color: #97BF0D;
+}
+
+.header .navbar .navbar-brand img {
+    width: 50%;
+    height: auto;
+}
+
+.header .navbar .collapse .navbar-nav .active .nav-link {
+    background-color: #97BF0D;
+    color: #ffffff;
+}
+
+.header .navbar .collapse .navbar-nav .nav-item a {
+    transition: 0.4s;
+    color: #616161;
+}
+
+.header .navbar .collapse .navbar-nav .nav-item:hover .nav-link {
+    background-color: #97BF0D;
+    color: #ffffff;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    background-color: #97BF0D;
+    color: #ffffff;
+}
+
+.slide button {
+    background-color: #ffffff;
+    color: #97BF0D;
+    margin-bottom: 15px;
+}
+
+.az-btn {
+    background-color: #ffffff;
+    color: #97BF0D;
+    margin-bottom: 15px;
+}
+
+.az-btn-inv {
+    background-color: #97BF0D;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.s-1-right p {
+    text-align: justify;
+}
+
+.s-1-left {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.s-1-left img {
+    width: 400px;
+    height: 400px;
+}
+
+.chat {
+    color: #616161;
+}
+
+
+/* Manda */
+
+.produit img {
+    width: 300px;
+    height: 250px;
+}
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.contact {
+    border-radius: 5px;
+}
+
+.img {
+    width: 60px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.text {
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.why {
+    background: url("../img/why.svg");
+    background-size: cover;
+}
+
+.hi {
+    margin-top: 70px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.strong {
+    font-size: 1.5em;
+}
+
+.details {
+    font-size: 1.0em;
+    text-align: center;
+}
+
+.oh-1 {
+    margin-top: 70px;
+}
+
+
+/* Fin Manda */
+
+
+/* JAona */
+
+.details-card-inverse {
+    text-align: right;
+}
+
+.details-card-side img {
+    max-height: 100%;
+}
+
+.map-region path:hover {
+    fill: #97BF0D;
+}
+
+.map-region.active path {
+    fill: #97BF0D;
+}
+
+#madagascar-map {
+    max-height: 80vh;
+    width: auto;
+}
+
+.why img {
+    width: 300px;
+    height: auto;
+}
+
+.dago {
+    margin-top: 60px;
+    width: 80%;
+}
+
+.side-box {
+    background-color: #97BF0D;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .details-card h1 {
+        text-align: center;
+    }
+    .details-card p {
+        text-align: center;
+    }
+}
+
+
+/* Fin Jaona */
+
+@media screen and (max-width: 572px) {
+    body {
+        background-color: #f5f5f5;
+    }
+    .s-1-left img {
+        width: 400px;
+        height: 400px;
+    }
+    .slide {
+        margin-top: 80px;
+        height: 100%;
+    }
+    .slide button {
+        background-color: #ffffff;
+        color: #97BF0D;
+        margin-bottom: 20px;
+    }
+    .slide .carousel-inner .s-1 {
+        background: #97BF0D;
+        color: #ffffff;
+    }
+    .s-1-left img {
+        width: 300px;
+        height: 300px;
+    }
+    .s-1-left {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .why .row {
+        background-color: #ffffff;
+    }
+    #map-region-name {
+        text-align: center;
+    }
+    .produit {
+        margin: 0;
+    }
+    .produit img {
+        width: 100%;
+        height: 100%;
+    }
+}

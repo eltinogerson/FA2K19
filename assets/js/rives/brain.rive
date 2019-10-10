@@ -1,0 +1,20 @@
+! version = 2.0
+! var name = Kaody Bot
++ bonjour
+- Bonjour, Quel est votre nom?
+
++ salut
+- Salut, Comment vous appelez-vous?
+
++ js suis *
+- Heureux de te connaitre <star>
+- C'est un plaisir <star>, moi je suis <get name>
+
++ merci
+- De rien!
+- Okey!
+- D'accord!
+- Non, merci à vous!
+
++ *
+- Desolé, je ne vous compredn pas!

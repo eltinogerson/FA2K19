@@ -1,0 +1,9 @@
+#reponse:focus {
+    border: none!important;
+}
+#send{
+    background-color: transparent;
+    border: none;
+    color: #97BF0D;
+    font-size: 1.5em;
+}
